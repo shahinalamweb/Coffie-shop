@@ -1,0 +1,87 @@
+
+*{
+    margin: ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.main-container{
+    height: 100%;
+    width: 100%;
+}
+.main-container::before{
+     background: url(coffee-3120750.jpg) no-repeat center center/cover;
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+nav img{
+    width: 100px;
+    height: 66px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    transition: .3;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid burlywood;
+}
+nav button{
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: burlywood;
+    color: black;
+    font-weight: 600;
+    border: none;
+    margin-left: 20px;
+}
+.container{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+h1{
+    font-size: 50px;
+    color: #ffbe76;
+    font-weight: bolder;
+}
+p{
+    font-size: 15px;
+    font-family: cursive;
+    color:black ;
+    margin-top: 10px;
+}
+.container button{
+    padding: 12px 45px;
+    border: 3px solid bisque;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+    margin-top: 40px;
+    color:black;
+    background: transparent;
+}
